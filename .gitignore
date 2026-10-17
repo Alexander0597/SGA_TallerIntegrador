@@ -1,0 +1,25 @@
+# Compilación y artefactos de NetBeans / Ant
+/build/
+/dist/
+/nbbuild/
+
+# Configuraciones de usuario / máquina local en NetBeans
+**/nbproject/private/
+
+# Configuraciones de editores
+.vscode/
+.idea/
+*.iml
+
+# Archivos compilados y logs
+*.class
+*.log
+
+# Archivos temporales del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# JARs generados en dist (permitir librerías en lib/)
+*.jar
+!lib/*.jar
